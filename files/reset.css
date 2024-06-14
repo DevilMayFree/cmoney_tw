@@ -1,0 +1,48 @@
+ol, ul {
+  list-style-type: none;
+}
+
+html * {
+  margin: 0;
+  padding: 0;
+}
+
+html * {
+  outline: none;
+  position: relative;
+}
+
+html {
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  font-family: Arial, Helvetica, "LiHei Pro", "Microsoft JhengHei", MingLiU, sans-serif;
+  font-size: 15px;
+}
+
+img {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input, textarea, select, option, button, input[type="button"], input[type="submit"], input[type="reset"] {
+  font-family: Arial, Helvetica, "LiHei Pro", "Microsoft JhengHei", MingLiU, sans-serif;
+}
+
+button, input[type="button"], input[type="submit"], input[type="reset"], input[type="datetime"], input[type="search"] {
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+/* ¨¾¤î¦] reset ¾É­P Litv ¼½©ñ¾¹«ö¶s¶]ª© */
+.video-js * {
+    position: unset;
+}
